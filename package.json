@@ -46,6 +46,7 @@
     "@solana/wallet-adapter-wallets": "^0.19.32",
     "@solana/web3.js": "^1.98.0",
     "better-sqlite3": "^11.7.2",
+    "bs58": "^6.0.0",
     "buffer": "^6.0.3",
     "dotenv-flow": "^4.1.0",
     "eventemitter3": "^5.0.1",
