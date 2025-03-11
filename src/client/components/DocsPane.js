@@ -12,7 +12,7 @@ import {
 import documentationData from '../public/data/docs.json'
 import { usePane } from './usePane'
 
-export function Docspane({ close }) {
+export function Docspane({ world, close }) {
   const paneRef = useRef()
   const headRef = useRef()
   usePane('docs', paneRef, headRef)
@@ -95,7 +95,7 @@ export function Docspane({ close }) {
           <XIcon size={20} />
         </div>
       </div>
-      <DocspaneContent query={query} refresh={refresh} />
+      <DocspaneContent world={world} query={query} refresh={refresh} />
     </div>
   )
 }

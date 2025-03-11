@@ -8,11 +8,7 @@ import { Layers } from '../extras/Layers'
 import { ControlPriorities } from '../extras/ControlPriorities'
 import { warn } from '../extras/warn'
 
-<<<<<<< HEAD
-const internalEvents = ['fixedUpdate', 'updated', 'lateUpdate', 'enter', 'leave', 'chat', 'health']
-=======
 const internalEvents = ['fixedUpdate', 'updated', 'lateUpdate', 'destroy', 'enter', 'leave', 'chat', 'health']
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246
 
 /**
  * Apps System
@@ -267,8 +263,4 @@ export class Apps extends System {
       }
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

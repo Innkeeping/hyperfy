@@ -39,8 +39,4 @@ export function imageRoundRect(ctx, x, y, width, height, radius, img) {
   ctx.clip()
   ctx.drawImage(img, x, y, width, height)
   ctx.restore()
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

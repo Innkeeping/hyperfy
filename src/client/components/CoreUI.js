@@ -56,17 +56,14 @@ function Content({ world, width, height }) {
   const [disconnected, setDisconnected] = useState(false)
   const [settings, setSettings] = useState(false)
   const [apps, setApps] = useState(false)
-<<<<<<< HEAD
   const [docs, setDocs] = useState(false)
-=======
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246
   const [kicked, setKicked] = useState(null)
   useEffect(() => {
     world.on('ready', setReady)
     world.on('player', setPlayer)
     world.on('inspect', setInspect)
     world.on('code', setCode)
-    world.off('docs', setDocs)
+    world.on('docs', setDocs)
     world.on('avatar', setAvatar)
     world.on('kick', setKicked)
     world.on('disconnect', setDisconnected)

@@ -298,8 +298,4 @@ export class ClientLoader extends System {
     }
     this.promises.set(key, promise)
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

@@ -292,8 +292,4 @@ export const propToLabel = {
   mouseLeft: 'LMB',
   mouseRight: 'RMB',
   metaLeft: 'Cmd',
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246
