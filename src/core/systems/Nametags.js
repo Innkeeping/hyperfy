@@ -1,4 +1,4 @@
-import { fillRoundRect } from '../extras/fillRoundRect'
+import { fillRoundRect } from '../extras/roundRect'
 import * as THREE from '../extras/three'
 import CustomShaderMaterial from '../libs/three-custom-shader-material'
 import { uuid } from '../utils'
@@ -70,19 +70,19 @@ export class Nametags extends System {
           vec3 newPosition = position;
           newPosition = applyQuaternion(newPosition, uOrientation);
           csm_Position = newPosition;
-          
+
           // use uvs just for this slot
           vec2 atlasUV = uv; // original UVs are 0-1 for the plane
           atlasUV.y = 1.0 - atlasUV.y;
           atlasUV /= vec2(${PER_ROW}, ${PER_COLUMN});
           atlasUV += coords;
-          vUv = atlasUV;          
+          vUv = atlasUV;
         }
       `,
       fragmentShader: `
         uniform sampler2D uAtlas;
         varying vec2 vUv;
-        
+
         void main() {
           vec4 texColor = texture2D(uAtlas, vUv);
           csm_FragColor = texColor;
