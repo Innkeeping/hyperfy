@@ -1022,4 +1022,8 @@ function getPivotOffset(pivot, width, height) {
   //   originalTopLeft + pivotTranslation
   // = (-halfW + tx, +halfH + ty)
   return new THREE.Vector2(-halfW + tx, +halfH + ty)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

@@ -32,4 +32,8 @@ export class Storage {
     }
     // console.timeEnd('[storage] persist')
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

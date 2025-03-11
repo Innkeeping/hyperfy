@@ -20,4 +20,8 @@ export function createViewerWorld() {
   world.register('environment', ClientEnvironment)
   // world.register('audio', ClientAudio)
   return world
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246

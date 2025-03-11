@@ -49,4 +49,8 @@ const viewerBuildDir = path.join(rootDir, 'build/viewer')
     await clientCtx.rebuild()
     process.exit(1)
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b83293b60dbebb288af7469aca59955ff5e0246
